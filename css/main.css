@@ -1,6 +1,8 @@
 
 body {
 	background-color: black;
+  font-size: 16px;
+  font-family: 'abril fatface';
 }
 
 .main {
@@ -59,4 +61,9 @@ body {
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing .ryu-cool {
   background-repeat: no-repeat;
+}
+
+.intructions {
+  float: right;
+  padding-top: 6rem;
 }

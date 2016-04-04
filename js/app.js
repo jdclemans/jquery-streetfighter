@@ -1,9 +1,5 @@
 $(document).ready(function(){
 
-
-
-
-
     $('.ryu').mouseenter(function(){
         $('.ryu-still').hide();
         $('.ryu-ready').show();
@@ -39,7 +35,7 @@ $('body').keydown(function(e) {
 
 $('body').keyup(function(e) {
 	if(e.which==88) {
-  $('.ryu-still').show();
+  $('.ryu-ready').show();
   $('.ryu-cool').hide();
   }
 });
